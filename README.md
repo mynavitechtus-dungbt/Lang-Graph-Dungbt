@@ -1,8 +1,10 @@
-# LangGraph - Dungbt Traning LangGraph
+# LangGraph Tutorial Series
 
 ## 📚 Giới Thiệu
 
-**LangGraph** Dungbt traning langgraph for make salary go  to moon, get the money and give all to my wife.
+**LangGraph** là một thư viện mạnh mẽ để xây dựng các ứng dụng AI với state machines và graph-based workflows. Repository này chứa các bài học và ví dụ thực hành về LangGraph, từ cơ bản đến nâng cao.
+
+> *"Training LangGraph to make salary go to the moon, get the money and give all to my wife."* 💰🌙
 
 ## 🔑 Khái Niệm Cơ Bản
 
@@ -13,26 +15,89 @@
 
 ## 📖 Các File Notebook
 
-1. **File 1**: Graph đơn giản với 1 node
-2. **File 2**: Multi-step processing với nhiều nodes tuần tự
-3. **File 3**: Conditional routing - điều hướng dựa trên điều kiện
-4. **File 5**: Graph phức tạp với nhiều nhánh và conditional routing
-5. **File 6**: Building Loops & Iterative Logic in LangGraph
-7. **File 7**: State-Based Conversational AI Tutorial
+### 1. Your First LangGraph Example — Turning Logic into Flow
+   - Giới thiệu cơ bản về LangGraph
+   - Tạo graph đơn giản với 1 node
+   - Hiểu cách state được truyền qua nodes
+
+### 2. Structured States & Multi-Step Reasoning Explained
+   - Làm việc với structured states (TypedDict)
+   - Multi-step processing với nhiều nodes tuần tự
+   - Quản lý state phức tạp hơn
+
+### 3. Conditional Routing in LangGraph
+   - Conditional routing - điều hướng dựa trên điều kiện
+   - Sử dụng conditional edges
+   - Quyết định động trong graph flow
+
+### 4. Multi-Branch Decision Flows Explained
+   - Graph phức tạp với nhiều nhánh
+   - Xử lý nhiều luồng xử lý song song
+   - Advanced conditional routing patterns
+
+### 5. Building Loops & Iterative Logic in LangGraph
+   - Tạo loops và logic lặp lại
+   - Xử lý iterative workflows
+   - Quản lý state trong vòng lặp
+
+### 6. State-Based Conversational AI Tutorial
+   - Xây dựng conversational AI với LangGraph
+   - Quản lý conversation state
+   - Tích hợp với LLM models
+
+### 7. LangGraph Tool Nodes Explained
+   - Sử dụng tool nodes trong LangGraph
+   - Tích hợp external tools và APIs
+   - Tool calling patterns
 
 ## 🚀 Cài Đặt
 
-```bash
-source venv/bin/activate
-pip install -r requirements.txt
-jupyter notebook
+### Yêu Cầu
+- Python 3.11+
+- pip
+
+### Các Bước Cài Đặt
+
+1. **Kích hoạt virtual environment:**
+   ```bash
+   source venv/bin/activate
+   ```
+
+2. **Cài đặt dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Khởi chạy Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+   
+   Hoặc sử dụng JupyterLab:
+   ```bash
+   jupyter lab
+   ```
+
+### Dependencies
+
+- `jupyter>=1.0.0` - Jupyter notebook environment
+- `langgraph>=1.0.0` - LangGraph library
+- `ipykernel>=6.0.0` - IPython kernel for Jupyter
+- `python-dotenv>=1.0.0` - Environment variable management
+- `langchain-google-genai>=1.0.0` - Google GenAI integration for LangChain
+
+## 📝 Cấu Trúc Project
+
 ```
-
-## 🔗 Tài Liệu
-
-- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
-- [LangChain Documentation](https://python.langchain.com/)
-
----
-
-**Tác giả**: dungbt | **Mục đích**: Học tập và nghiên cứu về LangGraph
+LangGraph/
+├── 1.Your First LangGraph Example — Turning Logic into Flow.ipynb
+├── 2.Structured States & Multi-Step Reasoning Explained.ipynb
+├── 3.Conditional Routing in LangGraph.ipynb
+├── 4.Multi-Branch Decision Flows Explained.ipynb
+├── 5.Building Loops & Iterative Logic in LangGraph.ipynb
+├── 6.State-Based Conversational AI Tutorial.ipynb
+├── 7.LangGraph Tool Nodes Explained.ipynb
+├── requirements.txt
+├── README.md
+└── venv/                    # Virtual environment (gitignored)
+```
