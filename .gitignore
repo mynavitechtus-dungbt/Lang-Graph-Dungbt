@@ -12,7 +12,10 @@ __pycache__/
 venv/
 env/
 ENV/
+.venv/
 
+# Logs
+logs/
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -27,8 +30,7 @@ ENV/
 Thumbs.db
 
 
-# Downloads
-Downloads/
+# all file agents/
+.agents/
+.cursor/
 
-# Basic
-Basic/Data/Healthcare/
